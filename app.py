@@ -76,7 +76,7 @@ def handle_userinput(user_question):
             [f" Document {str(i)}:::\n" + doc for i, doc in enumerate(retrieved_docs_text)]
         )
         
-        cohere_client = cohere.Client(os.getenv("jTi1UBBhn4nGqlw8uql701X48AFzIPdHZYONMdBy"))
+        cohere_client = cohere.Client(os.getenv("cohere-api-key"))
         response = cohere_client.chat(
             chat_history=[
                 {
