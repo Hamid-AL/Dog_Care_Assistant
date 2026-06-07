@@ -1,3 +1,3 @@
 # Dog_Care_Assistant(Freelancing Project)
 
-A based RAG dok care assistant.
+A based RAG dog care assistant.
